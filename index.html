@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Primary Meta Tags -->
+    <title>Titan Business Pros LLC | Lease Agricultural Land for Profit</title>
+    <meta name="title" content="Titan Business Pros LLC - Lease Your Land for Thousands Annually">
+    <meta name="description" content="We lease land for more! Learn how to make thousands annually for that land that just sits! Stop paying property taxes and let us pay them! We are insured and ready to start a farm on your land!">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://titanbusinesspros.com/">
+    <meta property="og:title" content="Titan Business Pros LLC - Lease Your Land for Thousands Annually">
+    <meta property="og:description" content="We lease land for more! Learn how to make thousands annually for that land that just sits! Stop paying property taxes and let us pay them! We are insured and ready to start a farm on your land!">
+    <meta property="og:image" content="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Titan%20Logo-2.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://titanbusinesspros.com/">
+    <meta property="twitter:title" content="Titan Business Pros LLC - Lease Your Land for Thousands Annually">
+    <meta property="twitter:description" content="We lease land for more! Learn how to make thousands annually for that land that just sits! Stop paying property taxes and let us pay them! We are insured and ready to start a farm on your land!">
+    <meta property="twitter:image" content="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Titan%20Logo-2.png">
+    
+    <!-- Favicon (New Logo) -->
+    <link rel="icon" type="image/png" href="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Titan%20Logo-2.png">
+    <link rel="apple-touch-icon" href="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Titan%20Logo-2.png">
+    
+    <!-- Google Analytics placeholder (using the provided key) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=77777777777"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '77777777777');
+    </script>
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            color: #1f2e1c;
+        }
+
+        /* Full-page background image: Pic-3 */
+        .bg-full {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-3.png');
+            background-size: cover;
+            background-position: center 30%;
+            background-repeat: no-repeat;
+            z-index: -2;
+        }
+
+        .soft-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(40, 50, 30, 0.28);
+            z-index: -1;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.2rem 1.8rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .content-block {
+            background: rgba(255, 253, 242, 0.92);
+            backdrop-filter: blur(3px);
+            border-radius: 2rem;
+            padding: 1.8rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 700px) {
+            .main-container {
+                padding: 0.8rem;
+            }
+            .content-block {
+                padding: 1.2rem;
+            }
+        }
+
+        /* Centered header styles - all elements 25% larger */
+        .header-centered {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .logo-centered {
+            max-height: 100px;
+            width: auto;
+            margin: 0 auto 0.6rem;
+            display: block;
+        }
+        .phone-number-large {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: #1f6212;
+            display: inline-block;
+            margin: 0.6rem 0;
+            letter-spacing: -0.01em;
+        }
+        .badge-centered {
+            background: #2c7a1c;
+            color: white;
+            padding: 0.38rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1.06rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 0.6rem auto;
+        }
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #1f6212, #3f9229);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            line-height: 1.2;
+            margin-bottom: 0.6rem;
+        }
+        .subhead {
+            font-size: 1.625rem;
+            margin-top: 0.3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            border-left: 5px solid #368f24;
+            padding-left: 1rem;
+            margin: 1.2rem 0 0.8rem;
+            color: #214d18;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+            color: #2a631d;
+        }
+
+        .flex-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.8rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            background: white;
+            border-radius: 1.2rem;
+            padding: 1.5rem;
+            flex: 1 1 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        }
+
+        .info-card i {
+            font-size: 2rem;
+            color: #368f24;
+            margin-bottom: 0.8rem;
+        }
+
+        .art-img {
+            display: block;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            margin: 1.5rem auto;
+            border-radius: 0;
+            box-shadow: none;
+            background: transparent;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #2c7a1c;
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: background 0.2s, transform 0.1s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #2c7a1c;
+            color: #2c7a1c;
+        }
+
+        .btn-outline:hover {
+            background: #2c7a1c;
+            color: white;
+        }
+
+        .btn:hover {
+            background: #1f5a12;
+            transform: translateY(-2px);
+        }
+
+        .btn-lease {
+            background: #f4a261;
+            color: #2c2c2c;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .btn-lease:hover {
+            background: #e76f51;
+            color: white;
+        }
+        
+        .btn-coop {
+            background: #6b8c42;
+            color: white;
+        }
+
+        .btn-coop:hover {
+            background: #557034;
+        }
+
+        .liability-note {
+            background: rgba(230, 245, 220, 0.8);
+            padding: 1rem 1.2rem;
+            border-radius: 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding: 1.2rem;
+            text-align: center;
+            border-top: 1px solid #cfcdae;
+            background: rgba(245, 240, 220, 0.8);
+            border-radius: 1.5rem;
+            font-size: 0.85rem;
+        }
+
+        .social-icon {
+            color: #3b5998;
+            font-size: 1.4rem;
+            transition: transform 0.2s;
+            margin-left: 0.5rem;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 700px) {
+            .logo-centered { max-height: 75px; }
+            .phone-number-large { font-size: 1.6rem; }
+            .badge-centered { font-size: 0.9rem; }
+            h1 { font-size: 2.5rem; }
+            .subhead { font-size: 1.1rem; }
+            h2 { font-size: 1.6rem; }
+            h3 { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-full"></div>
+    <div class="soft-overlay"></div>
+
+    <div class="main-container">
+        <div class="content-block">
+            <!-- Centered Header Section with enlarged elements -->
+            <div class="header-centered">
+                <img class="logo-centered" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Titan%20Logo-2.png" alt="Titan Business Pros LLC Logo">
+                <div>
+                    <span class="phone-number-large"><i class="fas fa-phone-alt"></i> 405-998-7979</span>
+                </div>
+                <div>
+                    <span class="badge-centered"><i class="fas fa-seedling"></i> USDA Cooperative Network</span>
+                </div>
+                <h1>Turn your land into <br>thriving farmland</h1>
+                <p class="subhead">Lease land for veggies, fruits, livestock, poultry, bees, fish & more</p>
+            </div>
+
+            <!-- Image Pic-1 -->
+            <img class="art-img" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-1.png" alt="">
+
+            <!-- Button 1: Lease Your Land Form -->
+            <div style="text-align: center; margin: 1rem 0 0.5rem;">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSephTgQxprUEfInrAxUYRkJ8nzpxiD47MU-WEKnd1BalaB6Ag/viewform?usp=header" target="_blank" class="btn btn-lease">
+                    <i class="fas fa-file-signature"></i> Lease Your Land – Apply Now
+                </a>
+            </div>
+
+            <!-- Earnings info row -->
+            <div class="flex-grid">
+                <div class="info-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Base Pay + Profit Share</h3>
+                    <p><strong>Base fee per acre</strong> evaluated individually: typically <strong>$50–$100/acre/year</strong>. <br>Plus <strong>10–20% of net profit</strong> after all farm bills and employee wages are paid. Landowners can easily earn thousands annually.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Long‑term Leases</h3>
+                    <p><strong>10 to 50 years</strong> – stable passive income. Your land stays productive with our cooperative farmers.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>$1M Liability Coverage</h3>
+                    <p>Full liability taken by Titan Business Pros LLC. <strong>$1,000,000 per occurrence</strong> general liability protects you.</p>
+                </div>
+            </div>
+
+            <!-- Image Pic-2 -->
+            <img class="art-img" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-2.png" alt="">
+
+            <!-- Cooperative Call to Action for Oklahoma Farmers -->
+            <div style="background: rgba(230, 245, 210, 0.9); padding: 1.8rem; border-radius: 1.5rem; margin: 2rem 0; text-align: center;">
+                <i class="fas fa-handshake fa-3x" style="color: #557034; margin-bottom: 0.8rem;"></i>
+                <h2 style="border-left: none; margin-top: 0;">Join Our Oklahoma Farming Cooperative</h2>
+                <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto 1.5rem;">Ready to work the land and grow your future? Titan Business Pros LLC is setting up a farming cooperative in Oklahoma. We are looking for motivated individuals who are ready to put in the work. In exchange for your labor, you can earn a significant percentage of the farm's profits and build equity in the operation.</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_PQ1qmt9Qmp8Yn1UZkBabtJcYvtGXQ8J-atyEJqEV8GL4SQ/viewform?usp=header" target="_blank" class="btn btn-coop">
+                        <i class="fas fa-users"></i> Apply to Join The Titan Farmers Club
+                    </a>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.85rem;"><i class="fas fa-question-circle"></i> Fill out the application to see if you qualify for membership in our cooperative.</p>
+            </div>
+
+            <!-- Garlic & cooperative details -->
+            <div class="flex-grid">
+                <div class="info-card">
+                    <i class="fas fa-garlic"></i>
+                    <h3>Real example: Garlic</h3>
+                    <p>3 acres of garlic → 15% net profit share yields <strong>thousands extra yearly</strong> + base pay. Same with berries, livestock, or aquaculture.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Dozens of farmers ready</h3>
+                    <p>Titan Business Pros builds farming cooperatives and has <strong>dozens of members</strong> seeking land for immediate use.</p>
+                </div>
+            </div>
+
+            <!-- Pic-4 -->
+            <img class="art-img" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-4.png" alt="">
+
+            <!-- Liability note -->
+            <div class="liability-note">
+                <div><i class="fas fa-file-contract fa-2x"></i></div>
+                <div><strong>Lease terms:</strong> Minimum 10 years, up to 50 years · <strong>Base fee ($50–100/acre) + 10-20% of net profits</strong> · We assume full liability for land operations.</div>
+                <div><i class="fas fa-check-circle"></i> USDA certified club</div>
+            </div>
+
+            <!-- Pic-5 -->
+            <img class="art-img" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-5.png" alt="">
+
+            <!-- Extra earnings explanation -->
+            <div style="background: rgba(245, 240, 215, 0.7); padding: 1rem 1.2rem; border-radius: 1.2rem; margin: 1rem 0;">
+                <i class="fas fa-chart-line"></i> <strong>Earning potential:</strong> Base pay evaluated case-by-case (soil, water, location). Then a percentage (10–20%) of net revenue after all bills and employee wages. Landowners earn <strong>good money</strong> with The Titan Farmers Club!
+            </div>
+
+            <!-- Pic-6 -->
+            <img class="art-img" src="https://github.com/TitanBusinessPros/Lease-Ag-Land-4-More/raw/main/Pic-6.png" alt="">
+
+            <!-- CTA section with email and second lease button -->
+            <div style="text-align: center; margin: 2rem 0 1rem;">
+                <h3>Ready to earn money for that vacant land?</h3>
+                <p>Get a free evaluation for your land — base pay + profit share estimate.</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 1.2rem;">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSephTgQxprUEfInrAxUYRkJ8nzpxiD47MU-WEKnd1BalaB6Ag/viewform?usp=header" target="_blank" class="btn btn-lease">
+                        <i class="fas fa-file-signature"></i> Lease Your Land – Apply Now
+                    </a>
+                    <a href="mailto:titanbusinesspros@gmail.com?subject=Agricultural%20Land%20Lease%20Inquiry&body=Hello%20Titan%20Business%20Pros%2C%0D%0A%0D%0AI%20have%20land%20available%20for%20leasing.%20Please%20contact%20me%20with%20details%20about%20base%20pay%20and%20percentage%20earnings.%0D%0A%0D%0AAcres%3A%20______%0D%0ALocation%3A%20______%0D%0A%0D%0AThank%20you." class="btn"><i class="fas fa-envelope"></i> Email Titan Business Pros</a>
+                    <a href="tel:14059987979" class="btn btn-outline"><i class="fas fa-phone-alt"></i> Call 405-998-7979</a>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.85rem;"><i class="fas fa-leaf"></i> Base fee determined after property evaluation | $1M liability coverage | Leases 10–50 years</p>
+            </div>
+
+            <!-- Footer with replaced email text and Facebook icon -->
+            <footer>
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div><strong>Titan Business Pros LLC</strong> | Agricultural Land Leasing & Farming Cooperatives</div>
+                    <div><i class="fas fa-phone"></i> 405-998-7979</div>
+                    <div>
+                        <i class="fas fa-globe"></i> www.oklahoma.marketing
+                        <a href="https://www.facebook.com/TitanBusinessPros/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <i class="fab fa-facebook-square social-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr style="margin: 0.8rem 0; border-color: #bfb686;">
+                <div>
+                    <i class="fas fa-tractor"></i> Vegetables · Fruits · Livestock · Poultry · Bees · Fish & All Kinds of Animals.<br>
+                    © 2026 Titan Business Pros LLC — General liability up to $1M per occurrence. Landowner receives guaranteed base fee ($50–100/acre/year avg) plus profit share (10–20% of net profit). Actual earnings depend on crop, market conditions, and evaluation. USDA certified farming club ready.
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
